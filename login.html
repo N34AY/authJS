@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="modules/axios.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="modal">
+            <div class="header_container">
+                <h1>Authorization</h1>
+                <p id="message" style="display: none;"></p>
+            </div>
+            <div class="inputs_container">
+                <p id="message" style="display: none;"></p>
+                <p class="input_lable">Login</p>
+                <input type="text" required placeholder="dfsafa@gmail.com" id="email">
+                <p class="input_lable">Password</p>
+                <input type="password" required placeholder="******" id="password">
+            </div>
+            <div class="btn_container">
+                <button class="signin_btn" type="submit" onclick="signIn()" id="loginButton">Sign in</button>
+                <a href="#">
+                    Register
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

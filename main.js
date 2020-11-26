@@ -25,19 +25,3 @@ async function sendRequest (emailValue, passwordValue) {
     }
 
 }
-
-get - https://www.svadba.com/chat/updates/status+messages/everyone/?messages=113031805396
-
-
-get chat history - https://api.svadba.com/v2/chats/1951585/messages/48728937?select=50
-
-post send message - https://www.svadba.com/chat/send-message/48728937
-form data
-tag: 26406966
-source: lc
-message: Hello!
-type: 1
-
-
-get mans - https://www.svadba.com/chat/updates/contacts+gifts+status+games+messages+onlines+invites+search+attentions+potential-attendees/48728937/?onlines=50
-onlines: 50

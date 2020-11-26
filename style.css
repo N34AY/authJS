@@ -1,0 +1,64 @@
+.container {
+
+}
+
+.modal {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(243, 243, 232);
+    -webkit-box-shadow: 1px 1px 18px 1px rgba(0,0,0,0.56); 
+    box-shadow: 1px 1px 18px 1px rgba(0,0,0,0.56);
+    border-radius: 6%;
+    position: absolute;
+    top: 35%;
+    left: 44%;
+    text-align: center;
+}
+
+.header_container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.inputs_container {
+    width: 200px;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+}
+
+.input_lable {
+    text-align: left;
+}
+
+.btn_container {
+    margin-top: 40px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signin_btn {
+    width: 100%;
+    border-radius: 40px;
+    height: 40px;
+    background-color: rgb(190, 214, 166);
+    border: none;
+    text-transform: uppercase;
+}
+
+.signin_btn:hover {
+    background-color: rgb(140, 172, 109);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
