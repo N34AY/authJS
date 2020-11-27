@@ -1,0 +1,82 @@
+.register {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(243, 243, 232);
+    -webkit-box-shadow: 1px 1px 18px 1px rgba(0,0,0,0.56); 
+    box-shadow: 1px 1px 18px 1px rgba(0,0,0,0.56);
+    border-radius: 6%;
+    position: absolute;
+    top: 18%;
+    left: 34%;
+    text-align: center;
+}
+
+#message {
+    font-size: 20px;
+}
+
+.success {
+    color: rgb(23, 185, 31);
+}
+
+.failed {
+    color: crimson;
+}
+
+.name {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.name_item {
+    margin-left: 30px;
+}
+
+.email {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.pass {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.pass div {
+    margin-top: 20px;
+}
+
+.tip {
+    font-size: 14px;
+}
+
+p.password {
+    width: 60%;
+}
+
+.btn_container {
+    margin-top: 40px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login_btn {
+    width: 100%;
+    border-radius: 40px;
+    height: 40px;
+    background-color: rgb(190, 214, 166);
+    border: none;
+    text-transform: uppercase;
+}
+
+.login_btn:hover {
+    background-color: rgb(140, 172, 109);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}

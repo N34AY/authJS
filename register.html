@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/registration.css">
+    <script src="modules/axios.min.js"></script>
+    <script src="js/register.js"></script>
+</head>
+<body>
+    <div class="register">
+        <div class="head">
+            <div class="header_head"></div>
+            <h1>Регистрация</h1>
+            <p id="message"></p>
+            <p>Пожалуйста, заполните эту форму, чтобы создать учетную запись.</p>
+        </div>
+        <hr>
+        <div class="name">
+            <div class="name_item">
+                <label for="First_Name">First Name:</label>
+                <input type="first_name" required placeholder="Имя" id="firstName">
+            </div>
+            <div class="name_item">
+                <label for="Name">Last Name:</label>
+                <input type="Last_name" required placeholder="Фамилия" id="lastName">
+            </div>
+        </div>
+        <div class="email">
+            <label for="email"><b>Email</b></label>
+            <input type="email" required placeholder="Email Address" id="email">
+            <p class="tip">Можно использовать буквы латинского алфавита, цифры и точки.</p>
+        </div>
+        <div class="pass">
+            <div>
+                <label for="password"><b>Пароль</b></label>
+                <input type="password" required placeholder="********" id="password">
+            </div>
+            <div>
+                <label for="repeatPassword"><b>Повторите пароль</b></label>
+                <input type="password" required placeholder="********" id="repeatPassword">
+            </div>
+            <div>
+                <input type="checkbox" onclick="passwordView(this)">Show Password
+                <p class="tip password">Пароль должен содержать не менее восьми знаков, включать буквы, цифры и специальные символы.</p>
+            </div>
+        </div>
+        <div class="btn_container">
+            <button class="login_btn" type="submit" onclick="signUp()" id="register_button">Registration</button>
+            <a href="#">
+                Log In
+            </a>
+        </div>
+    </div>
+</body>
+</html>
